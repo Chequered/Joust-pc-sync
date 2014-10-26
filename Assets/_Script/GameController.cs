@@ -52,7 +52,6 @@ public class GameController : MonoBehaviour {
 	}
 
 	public static void updateEnemyCount(){
-		Debug.Log (enemiesInStage.Count);
 		if(enemiesInStage.Count <= 0){
 			spawnOver = true;
 			spawned = 0;

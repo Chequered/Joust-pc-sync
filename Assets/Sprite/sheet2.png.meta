@@ -1,0 +1,752 @@
+fileFormatVersion: 2
+guid: 80894c775cc238a4a9b3d30b59157670
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: sheet2
+    21300002: sheet2_0
+    21300004: sheet2_1
+    21300006: sheet2_2
+    21300008: sheet2_3
+    21300010: sheet2_4
+    21300012: sheet2_5
+    21300014: sheet2_6
+    21300016: sheet2_7
+    21300018: sheet2_8
+    21300020: sheet2_9
+    21300022: sheet2_10
+    21300024: sheet2_11
+    21300026: sheet2_12
+    21300028: sheet2_13
+    21300030: sheet2_14
+    21300032: sheet2_15
+    21300034: sheet2_16
+    21300036: sheet2_17
+    21300038: sheet2_18
+    21300040: sheet2_19
+    21300042: sheet2_20
+    21300044: sheet2_21
+    21300046: sheet2_22
+    21300048: sheet2_23
+    21300050: sheet2_24
+    21300052: sheet2_25
+    21300054: sheet2_26
+    21300056: sheet2_27
+    21300058: sheet2_28
+    21300060: sheet2_29
+    21300062: sheet2_30
+    21300064: sheet2_31
+    21300066: sheet2_32
+    21300068: sheet2_33
+    21300070: sheet2_34
+    21300072: sheet2_35
+    21300074: sheet2_36
+    21300076: sheet2_37
+    21300078: sheet2_38
+    21300080: sheet2_39
+    21300082: sheet2_40
+    21300084: sheet2_43
+    21300086: sheet2_44
+    21300088: sheet2_45
+    21300090: sheet2_46
+    21300092: sheet2_48
+    21300094: sheet2_49
+    21300096: sheet2_50
+    21300098: sheet2_51
+    21300100: sheet2_52
+    21300102: sheet2_53
+    21300104: sheet2_54
+    21300106: sheet2_55
+    21300108: sheet2_56
+    21300110: sheet2_57
+    21300112: sheet2_58
+    21300114: sheet2_59
+    21300116: sheet2_60
+    21300118: sheet2_61
+    21300120: sheet2_62
+    21300122: sheet2_63
+    21300124: sheet2_64
+    21300126: sheet2_65
+    21300128: sheet2_63
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: sheet2_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 142
+        width: 37
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_1
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 143
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_2
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 129
+        width: 31
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_3
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 128
+        width: 31
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_4
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 128
+        width: 29
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_5
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 128
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 133
+        width: 31
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_7
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 142
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_8
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 143
+        width: 33
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_9
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 141
+        width: 36
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_10
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 140
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_11
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 141
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_12
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 140
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_13
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 143
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_14
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 103
+        width: 34
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_15
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 92
+        width: 35
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_16
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 91
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_17
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 91
+        width: 32
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_18
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 90
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_19
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 90
+        width: 34
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_20
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 93
+        width: 32
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_21
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 102
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_22
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 92
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_23
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 105
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_24
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 105
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_25
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 104
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_26
+      rect:
+        serializedVersion: 2
+        x: 517
+        y: 104
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_27
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 104
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_28
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 67
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_29
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 56
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_30
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 67
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_31
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 67
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_32
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 57
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_33
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 66
+        width: 27
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_34
+      rect:
+        serializedVersion: 2
+        x: 214
+        y: 67
+        width: 27
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_35
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 57
+        width: 19
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_36
+      rect:
+        serializedVersion: 2
+        x: 282
+        y: 67
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_37
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 69
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_38
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 69
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_39
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 69
+        width: 20
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_40
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 59
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_43
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 68
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_44
+      rect:
+        serializedVersion: 2
+        x: 501
+        y: 62
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_45
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 62
+        width: 25
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_46
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 51
+        width: 25
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_49
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 5
+        width: 30
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_50
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 29
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_51
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 24
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_52
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 33
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_53
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 14
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_54
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 13
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_55
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 16
+        width: 16
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_56
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 30
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_57
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 22
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_58
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 18
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_59
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 21
+        width: 51
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_60
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 26
+        width: 52
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_61
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 19
+        width: 60
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_62
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 27
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_63
+      rect:
+        serializedVersion: 2
+        x: 542
+        y: 27
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_64
+      rect:
+        serializedVersion: 2
+        x: 564
+        y: 27
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_65
+      rect:
+        serializedVersion: 2
+        x: 586
+        y: 27
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: sheet2_63
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 57
+        width: 44
+        height: 28
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
