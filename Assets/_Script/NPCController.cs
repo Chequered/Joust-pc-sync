@@ -6,6 +6,7 @@ public class NPCController : CharacterProperties {
 	public float timerStrength;
 	public float rayDistance;
 	public float playerViewRange;
+
 	private float AIInputCooldown;
 	private float jumpCooldown;
 	private float moveCooldown;
@@ -97,13 +98,23 @@ public class NPCController : CharacterProperties {
 	}
 
 	private bool PlayerInRange(){
-		RaycastHit2D hit;
-		hit = Physics2D.Linecast(transform.position, PlayerController.singleton.transform.position);
-		if(hit.distance <= playerViewRange){
-			return true;
-		}else{
-			return false;
-		}
+        if (PlayerController.singleton != null)
+        {
+            RaycastHit2D hit;
+            hit = Physics2D.Linecast(transform.position, PlayerController.singleton.transform.position);
+            if (hit.fraction <= playerViewRange)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+        else
+        {
+            return false;
+        }
 	}
 
 	public void NewPos(int side){

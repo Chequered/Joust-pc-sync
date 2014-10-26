@@ -4,8 +4,14 @@ using System.Collections.Generic;
 
 public class GameController : MonoBehaviour {
 	public static List<GameObject> enemiesInStage = new List<GameObject>();
+    public static GameController instant;
+
 	public GameObject[] spawnPlatforms;
 	public GameObject[] enemies;
+    public GameObject livesText;
+    public GameObject playerPrefab;
+
+    public bool playerNeedsSpawn;
 
 	private GameObject player;
 	private Vector2 posLeft;
@@ -14,22 +20,30 @@ public class GameController : MonoBehaviour {
 	private static bool spawnOver;
 	private static int spawned;
 	private float spawnTimer;
+    private uint lives = 3;
 
 	private void Start(){
 		player = GameObject.FindGameObjectWithTag("Player");
 		posLeft = new Vector2(0, player.transform.position.y);
 		posRight = new Vector2(16, player.transform.position.y);
+        instant = this;
 		spawnTimer = 8f;
 		updateEnemyCount();
 	}
 
 	private void Update(){
-		if(player.transform.position.x < posLeft.x){
-			TeleportPlayer(posRight.x, player);
-		}else if(player.transform.position.x > posRight.x){
-			TeleportPlayer(posLeft.x, player);
-		}
-		foreach(GameObject enem in enemies){
+        if (player != null)
+        {
+            if (player.transform.position.x < posLeft.x)
+            {
+                TeleportPlayer(posRight.x, player);
+            }
+            else if (player.transform.position.x > posRight.x)
+            {
+                TeleportPlayer(posLeft.x, player);
+            }
+        }
+		foreach(GameObject enem in enemiesInStage){
 			if(enem != null){
 				if(enem.transform.position.x < posLeft.x){
 					TeleportPlayer(posRight.x, enem);
@@ -49,6 +63,12 @@ public class GameController : MonoBehaviour {
 				spawned++;
 			}
 		}
+        if(playerNeedsSpawn)
+        {
+            GameObject playr = Instantiate(playerPrefab, new Vector3(3.7f, -3.5f, 0), Quaternion.identity) as GameObject;
+            player = playr;
+            playerNeedsSpawn = false;
+        }
 	}
 
 	public static void updateEnemyCount(){
@@ -63,5 +83,16 @@ public class GameController : MonoBehaviour {
 		newPlayerPos.y = _player.transform.position.y;
 		_player.transform.position = newPlayerPos;
 	}
+
+    public void TakeALife()
+    {
+        lives -= 1;
+        if(lives <= 0)
+        {
+            Application.LoadLevel(0);
+        }
+        playerNeedsSpawn = true;
+        livesText.GetComponent<TextMesh>().text = "Lives: " + lives;
+    }
 
 }

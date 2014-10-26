@@ -77,9 +77,9 @@ public abstract class CharacterProperties : MonoBehaviour {
 		if(spriteObject != null)
 		{
 			if(!spriteChosen)
-			{
+            {
 				if(xForce > 0)
-				{
+                {
 					if(onGround)
 					{
 						spriteObject.GetComponent<SpriteManager>().Animate(CharAnimation.Walk, xForce);
